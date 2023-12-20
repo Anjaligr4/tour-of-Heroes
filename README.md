@@ -1,7 +1,5 @@
 url = "https://www.tascoappliance.ca/home/"
-driver = webdriver.Chrome()  # Use the appropriate WebDriver for your browser
-driver.get(url)
-
+driver = webdriver.Chrome()  
 
 driver.find_element(By.LINK_TEXT, "Dishwasher").click()
 driver.find_element(By.LINK_TEXT, "Front Control").click()
